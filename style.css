@@ -1,0 +1,21 @@
+body {
+  background:green;
+  text-align: center;
+  color: whitesmoke;
+}
+
+a:link {
+  color: chartreuse;
+}
+
+a:hover {
+  color: navajowhite;
+  font-size: 25px;
+  background-color: darkgreen;
+}
+img {
+  width: 300px;
+  border-style: groove;
+  border-width: thick;
+}
+
