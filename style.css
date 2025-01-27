@@ -3,19 +3,43 @@ body {
   text-align: center;
   color: whitesmoke;
 }
-
-a:link {
-  color: chartreuse;
-}
-
+/* this is for the title for it to have effect */
 a:hover {
   color: navajowhite;
   font-size: 25px;
   background-color: darkgreen;
 }
+
 img {
   width: 300px;
   border-style: groove;
   border-width: thick;
 }
+/* this is for the div tag */
+.gallery {
+  display:flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+    justify-content:center;
+  
+}
+.image-card {
+width: 1500px;
+  border-style:solid;
+  border-width:2px;
+  
+}
+  .content {
+    display:flex;
+    padding:10px;
+   flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 
+ .image-card p{
+    font-size:17px;
+}
+.image-card h2{
+  margin-bottom:10px
+} 
